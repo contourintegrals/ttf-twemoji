@@ -6,7 +6,9 @@ This module changes Google Noto Emoji to Twemoji.
 
 ~~Uses the [Fedora](https://fedoraproject.org/)'s twitter-twemoji-fonts package because it's already in [CBDT/CBLC](https://docs.microsoft.com/en-us/windows/win32/directwrite/color-fonts#what-kinds-of-color-fonts-does-windows-support) format (the one used in Android and Chrome).~~
 
-Now uses [WhyNotHugo's SourceHut](https://git.sr.ht/~whynothugo/twemoji.ttf) font file because it provides a compatible one directly from the new jdecked's Twemoji.
+~~Now uses [WhyNotHugo's SourceHut](https://git.sr.ht/~whynothugo/twemoji.ttf) font file because it provides a compatible one directly from the new jdecked's Twemoji.~~
+
+Now uses [JoeBlakeB](https://github.com/JoeBlakeB/ttf-twemoji) font file based on WhyNotHugo's script.
 
 I took inspiration from [ttf-twemoji](https://aur.archlinux.org/packages/ttf-twemoji/)<sup>AUR</sup> over from the Arch Linux User Repository to get the compatible font.
 
